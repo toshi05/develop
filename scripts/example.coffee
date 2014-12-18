@@ -30,8 +30,8 @@ module.exports = (robot) ->
 			"ごちうさ程度では私の立場は揺らがない"
 			"えへへ♪プロデューサーさん♪"
 		]
-	robot.hear //i,(msg) ->
-		msg.send ""
+	robot.hear /おおた/i,(msg) ->
+		msg.send "いつもありがとうございますプロデューサーさん!"
  
  
  
