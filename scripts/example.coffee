@@ -22,7 +22,7 @@ module.exports = (robot) ->
 		msg.send "心がぴょんぴょんしますね,プロデューサーさん!"
 	robot.hear /遅刻/i,(msg) ->
 		msg.send "大丈夫ですか?プロデューサーさん!"
-	robot.hear /@haruka/i,(msg)->
+	robot.hear /haruka/i,(msg)->
 		msg.send msg.random [
 			"今日もお仕事ですか?プロデューサーさん!"
 			"お疲れ様です,プロデューサーさん!"
