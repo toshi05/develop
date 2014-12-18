@@ -18,7 +18,7 @@ module.exports = (robot) ->
   #   else
   #     msg.reply "Opening #{doorType} doors"
   #
-	robot.hear /チノ/i,(msg) ->
+	robot.hear /ご注文/i,(msg) ->
 		msg.send "心がぴょんぴょんしますね,プロデューサーさん!"
 	robot.hear /遅刻/i,(msg) ->
 		msg.send "大丈夫ですか?プロデューサーさん!"
